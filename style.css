@@ -1,0 +1,23 @@
+#left-slide {
+    position: absolute;
+    top: 25px;
+    left: -240px;
+    /*left:25px;*/
+    background: red;
+    width: 260px;
+    /*height: 260px;*/
+    padding:15px;
+    z-index: 10000;
+    background: #fff;
+    border: 1px solid #ccc;
+    shape-outside: border-box;
+    text-style: left;
+}
+
+#left-slide > div {
+    margin:5px 0;
+}
+
+#left-slide:hover {
+    left: 10px;
+}

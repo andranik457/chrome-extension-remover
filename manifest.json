@@ -1,0 +1,16 @@
+{
+  "name": "Remover",
+  "manifest_version": 2,
+  "version": "1.01",
+  "description": "Remove elements by id | class name",
+  "browser_action": {
+    "name": "Remove element",
+    "icons": ["remover.png"],
+    "default_icon": "remover.png"
+  },
+  "content_scripts": [ {
+    "js": ["jquery-3.3.1.min.js", "background.js"],
+    "css": ["style.css", "bootstrap.min.css"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
